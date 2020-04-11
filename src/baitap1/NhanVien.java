@@ -9,6 +9,8 @@ package baitap1;
  *
  * @author Admin
  */
-public class NhanVien {
+public class NhanVien 
+{
+    private String ten;
     
 }
