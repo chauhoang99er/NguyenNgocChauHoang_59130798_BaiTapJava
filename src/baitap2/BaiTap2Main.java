@@ -18,11 +18,11 @@ public class BaiTap2Main {
     public static void main(String[] args) 
     {
         // TODO code application logic here
-        NhanVien nv1 = new NhanVien("nhan vien 1", 19, "1", 100, 90);
-        NhanVien nv2 = new NhanVien("nhan vien 2", 20, "2", 200, 200);
-        NhanVien nv3 = new NhanVien("nhan vien 3", 22, "3", 150, 100);
-        NhanVien nv4 = new NhanVien("nhan vien 4", 40, "4", 130, 110);
-        NhanVien nv5 = new NhanVien("nhan vien 5", 10, "5", 10, 220);
+        NhanVien nv1 = new NhanVien("Văn A", 19, "Nha Trang", 100, 90);
+        NhanVien nv2 = new NhanVien("Thị B", 20, "Bình Thuận", 200, 200);
+        NhanVien nv3 = new NhanVien("Tố C", 22, "Ninh Thuận", 150, 100);
+        NhanVien nv4 = new NhanVien("Bích D", 40, "Phú Yên", 130, 110);
+        NhanVien nv5 = new NhanVien("Ngọc E", 10, "Lào Cai", 10, 220);
         
         QuanLy ql = new QuanLy();
         ql.them(nv1);
