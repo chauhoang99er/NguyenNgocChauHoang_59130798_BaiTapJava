@@ -16,13 +16,12 @@ public class BaiTap1Main {
      */
     public static void main(String[] args) 
     {
-        NhanVien nv1, nv2;
-        nv1 = new NhanVien("Nguyen Hoang Minh", 22, "31 Pham Tu", 50000, 310);
-        nv2 = new NhanVien("Vo Minh Toan", 21, "Quang Binh", 15000, 80);
         System.out.println("Thong Tin Nhan Vien 1: ");
-        nv1.getThongTin();
-        System.out.println("Thong Tin Nhan Vien 2:");
-        nv2.getThongTin();
+        NhanVien nv1 = new NhanVien("Nguyen Hoang Minh", 22, "31 Pham Tu", 50000, 310);
+        System.out.println(nv1.getThongTin());
+        System.out.println("Thong Tin Nhan Vien 2: ");
+        NhanVien nv2 = new NhanVien("Vo Minh Toan", 21, "Quang Binh", 15000, 80);       
+        System.out.println(nv2.getThongTin());
     }
     
 }

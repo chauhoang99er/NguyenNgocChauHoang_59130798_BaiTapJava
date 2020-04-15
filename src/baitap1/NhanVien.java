@@ -70,26 +70,15 @@ public class NhanVien
         this.tongsogiolam = tongsogiolam;
     }
     //Cac phuong thuc
-   public void getThongTin()
+        public String getThongTin()
     {
-        System.out.println("Ten: " + ten);
-        System.out.println("Tuoi: " + tuoi);
-        System.out.println("Dia chi: " + diachi);
-        System.out.println("Tien luong: " + tienluong);
-        System.out.println("Tong so gio lam: " + tongsogiolam);
-        System.out.println("Thuong: " + tinhthuong());
-    }
-  /*
-        public String getThongtin()
-        {
-            return "Ten: " + ten + "\n" +
-                    "Tuoi: " + tuoi + "\n" +
-                    "Dia chi: " + diachi + "\n" +
-                    "Tien luong: " + tienluong + "\n" +
-                    "Tong so gio lam: " + tongsogiolam + "\n" +
-                    "Thuong: " + tinhthuong() + "\n";
-        }
- */
+        return "Tên: "+ ten +"\n"
+                +"Tuổi: " + tuoi+"\n"
+                +"Địa chỉ: "+ diachi +"\n"
+                +"Tiền lương: "+ tienluong +"\n"
+                +"Tổng giờ làm: "+ tongsogiolam +"\n"
+                +"Thưởng: " + tinhthuong();  }
+ 
     public double tinhthuong()
     {
         double thuong;
