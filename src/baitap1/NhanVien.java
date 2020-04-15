@@ -81,11 +81,9 @@ public class NhanVien
  
     public double tinhthuong()
     {
-        double thuong;
-        if(tongsogiolam >= 200)
-            return thuong = tienluong * 20/100;
-        else if(tongsogiolam < 200 && tongsogiolam >= 100)
-            return thuong = tienluong * 10/100;
-        else return thuong = 0;
+        if (tongsogiolam >= 200) return tienluong*20/100;
+        else 
+          if (tongsogiolam < 100) return 0;
+          else return tienluong*10/100;
     }
 }
